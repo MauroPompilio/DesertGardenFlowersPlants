@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desert Garden Flowers & Plants</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="keywords" content="SUCULENTAS, PLANTAS, CUENCOS, REDES">
+    <meta name="description" content="Este es el sitio web de mi emprendimiento familiar sobre suculentas y plantas">
+
+</head>
+
+<body>
+    <!-- Acá inicia la clase del header -->
+    <header>
+        <div class="conteiner">
+            <nav class="navbar navbar-expand-lg navbar-dark text-center">
+                <a style="margin-left: 20px;" class="navbar-brand" href="index.html">
+                    <img src="./image/Logo2.png" height="68" class="d-inline-block align-top" alt="Logo">
+                </a>
+                <button style="margin-right: 50px;"
+                    class="navbar-toggler navbar-toggler-right btn btn-sm btn-outline-success" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item"><a class="nav-link " aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link btn" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Contacto</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle active" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Productos</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-center" href="macetasCilindro.html"> Macetas
+                                        Cilindro</a></li>
+                                <li><a class="dropdown-item text-center" href="macetaNido.html"> Macetas Nido</a></li>
+                                <li><a class="dropdown-item text-center" href="cuencos.html"> Cuencos</a></li>
+                                <li><a class="dropdown-item text-center" href="jardineras.html"> Jardineras</a></li>
+                                <li><a class="dropdown-item text-center" href="pailas.html"> Pailas</a></li>
+                                <li><a class="dropdown-item text-center" href="maceterosRectangulares.html"> Maceteros
+                                        Rectangulares</a></li>
+                                <li><a class="dropdown-item text-center" href="macetaN9.html"> Maceta N°9</a></li>
+                                <li><a class="dropdown-item text-center" href="terrarios.html"> Terrarios</a></li>
+                                <li><a class="dropdown-item text-center" href="zinc.html"> Zinc</a></li>
+                                <li><a class="dropdown-item text-center" href="plantasDeInterior.html"> Plantas de Interior</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Tips</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-center " href="barro.html"> <em>Barro</em> </a></li>
+                                <li><a class="dropdown-item text-center" href="cemento.html"> <em>Cemento</em></a></li>
+                                <li><a class="dropdown-item text-center" href="madera.html"> <em>Madera</em></a></li>
+                                <li><a class="dropdown-item text-center" href="vidrio.html"> <em>Vidrio</em></a></li>
+                                <li><a class="dropdown-item text-center" href="zinc2.html"> <em>Zinc</em></a></li>
+                            </ul>
+                    </ul>
+                </div>
+        </div>
+        </nav>
+        </div>
+        <!-- Acá finaliza la clase del header -->
+    </header>
+    <!-- Acá inicia la clase modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Formulario de Contacto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="statusMsg"></p>
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="inputName">Nombre</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Ingresa tu Nombre" />
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Ingresa tu Email" />
+                        </div>
+                        <div class="form-group">
+                            <label for="inputMessage">Mensaje</label>
+                            <textarea class="form-control" id="inputMessage"
+                                placeholder="Ingresa tu Mensaje"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary submitBtn"
+                        onclick="submitContactForm()">Enviar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Acá finaliza la clase modal -->
+    <main>
+        <!-- Acá inicia la clase del main -->
+        <div class="conteiner">
+            <div>
+                <div>
+                    <h6>Cuencos</h6>
+                    <!-- Esta es la galería de fotos -->
+                    <div class="row">
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <img src="/imageboos/cuencos/cuenco.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                            <img style="margin-top: 15%;" src="/imageboos/cuencos/cuenco2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                        </div>
+
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <img src="/imageboos/cuencos/cuenco3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                        </div>
+                    </div>
+                    <!-- Acá termina la galería de fotos -->
+                </div>
+            </div>
+            <!-- Acá finaliza la clase del main -->
+    </main>
+    <footer class="fixed-bottom">
+        <!-- Acá inicia la clase del footer -->
+        <div class="conteiner text-center">
+            <div class="row">
+                <div class="col-md btn-group" role="group" aria-label="Basic outlined example">
+                    <a href="#" class="btn flex-row-reverse "><img id="buttonreturn" src="/image/button.png" alt=""></a>
+                </div>
+                <div class="col-md">
+                    <h3> ©Desert Garden Flowers & Plants </h3>
+                </div>
+                <div class="col-md  d-flex flex-row text-center btn">
+                    <a href="https://m.facebook.com/Desert-Garden-Flowers-Plants-109479097582076/">
+                        <img src="./image/Facebook.png" height="35" class="" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/desert_garden_flowersandplants/">
+                        <img src="./image/Instagram.png" height="35" class="" alt="Instagram">
+                    </a>
+                    <a
+                        href="https://api.whatsapp.com/send?phone=541136312949&app=facebook&entry_point=page_cta&fbclid=IwAR1VHXSX7Q2UBtW6cCl2eKg3ITOpycKs-0vGBU40zgb-_Ryrb6UhcRNjVcY">
+                        <img src="./image/Whatsapp.png" height="35" class="" alt="Whatsapp">
+                    </a>
+                    <a href="mailto:desertgarden20@gmail.com">
+                        <img src="./image/Gmail.png" height="35" class="" alt="Instagram">
+                    </a>
+                </div>
+                <div>
+                </div>
+                <!-- Acá finaliza la clase del footer -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+
+    <script>
+        function submitContactForm() {
+            var reg = /^[A-Z0-9._%+-]+@([A-Z0-9-]+.)+[A-Z]{2,4}$/i;
+            var name = $('#inputName').val();
+            var email = $('#inputEmail').val();
+            var message = $('#inputMessage').val();
+            if (name.trim() == '') {
+                alert('Por favor ingresa tu Nombre.');
+                $('#inputName').focus();
+                return false;
+            } else if (email.trim() == '') {
+                alert('Por favor ingresa tu Email.');
+                $('#inputEmail').focus();
+                return false;
+            } else if (email.trim() != '' && !reg.test(email)) {
+                alert('Por favor ingresa tu Email correctamente.');
+                $('#inputEmail').focus();
+                return false;
+            } else if (message.trim() == '') {
+                alert('Por favor ingresa tu Mensaje.');
+                $('#inputMessage').focus();
+                return false;
+            } else {
+                $.ajax({
+                    type: 'POST',
+                    url: 'submit_form.php',
+                    data: 'contactFrmSubmit=1&name=' + name + '&email=' + email + '&message=' + message,
+                    beforeSend: function () {
+                        $('.submitBtn').attr("disabled", "disabled");
+                        $('.modal-body').css('opacity', '.5');
+                    },
+                    success: function (msg) {
+                        if (msg == 'ok') {
+                            $('#inputName').val('');
+                            $('#inputEmail').val('');
+                            $('#inputMessage').val('');
+                            $('.statusMsg').html(
+                                '<span style="color:green;">Gracias por contactarte con nosotros, nos comunicaremos pronto.</p>'
+                            );
+                        } else {
+                            $('.statusMsg').html(
+                                '<span style="color:red;">Ha ocurrido un problema, proba luego por favor.</span>'
+                            );
+                        }
+                        $('.submitBtn').removeAttr("disabled");
+                        $('.modal-body').css('opacity', '');
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+
+</html>

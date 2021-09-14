@@ -1,78 +1,126 @@
-.video {
-  height: 300px;
-  width: 40%;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.media {
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  justify-items: center;
-}
-
+/* Este es el estilo del body */
 body {
-  background: no-repeat fixed;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  height: 100%;
-  background-image: radial-gradient(olivedrab, lemonchiffon, white);
-}
+    background: no-repeat fixed;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    height: 100%;
+    background-image: radial-gradient(olivedrab, lemonchiffon, white);
+  }
+  /* Acá termina el estilo del body */
+  
+  /* Este es el estilo del header */
+  header {
+    background-color: olivedrab;
+  }
+  
+  #marginheader {
+    margin-left: 20px;
+  }
+  
+  #headerbutton {
+    margin-right: 50px;
+  }
+  /* Acá termina el estilo del header */
+  
+  /* Este es el estilo del main */
+  .container{
+    margin-top: 2%;
+  }
+  
+  .media {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+  }
+  
+  .video {
+    height: 300px;
+    width: 40%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+  }
+  /* Acá termina el estilo del main */
+  
+  /* Estos son los estilos de los textos */
+  h1 {
+    margin-top: 25%;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+    color: white;
+    background-color: olivedrab;
+    background: -webkit-gradient(linear, left grey, from(white));
+    background: linear-gradient(to left grey, white);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 25px;
+    -webkit-box-shadow: 0 0 0.5rem black;
+    box-shadow: 0 0 0.5rem black;
+    padding-left: 30px;
+  }
+  
+  h2 {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  h3 {
+    color: white;
+    font-family: 'Gilda Display', serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  h4{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    margin-top: 2%;
+  }
+  
+  h6{
+    margin-top: 2%;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+    color: white;
+    background-color: olivedrab;
+    background: -webkit-gradient(linear, left grey, from(white));
+    background: linear-gradient(to left grey, white);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 25px;
+    -webkit-box-shadow: 0 0 0.5rem black;
+    box-shadow: 0 0 0.5rem black;
+  }
+  /* Acá terminan los estilos de los textos */
+  
+  /* Este es el estilo del footer */
+  footer {
+    background-color: olivedrab;
+  }
+  
+  #buttonreturn {
+    height: 20px;
+    width: 20px;
+  }
+  /* Acá termina el estilo del footer */
 
-header {
-  background-color: olivedrab;
-}
-
-#marginheader {
-  margin-left: 20px;
-}
-
-#headerbutton {
-  margin-right: 50px;
-}
-
-#buttonreturn {
-  height: 20px;
-  width: 20px;
-}
-
-h1 {
-  margin-top: 25%;
-  font-size: 45px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: oblique;
-  text-align: center;
-  color: white;
-  background-color: olivedrab;
-  background: -webkit-gradient(linear, left grey, from(white));
-  background: linear-gradient(to left grey, white);
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 25px;
-  -webkit-box-shadow: 0 0 0.5rem black;
-  box-shadow: 0 0 0.5rem black;
-  padding-left: 30px;
-}
-
-h2 {
-  color: black;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: initial;
-  text-align: justify;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-h3 {
-  color: white;
-  font-family: 'Gilda Display', serif;
-  font-size: 20px;
-  margin-top: 10px;
-}
-
-footer {
-  background-color: olivedrab;
-}
 /*# sourceMappingURL=style.css.map */
